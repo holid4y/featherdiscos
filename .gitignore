@@ -1,0 +1,7 @@
+build/
+vendor/*
+!vendor/*.json
+tests/client/node_modules/
+tests/download/
+__pycache__/
+*.pyc

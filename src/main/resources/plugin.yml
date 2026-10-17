@@ -1,0 +1,24 @@
+name: FeatherDiscos
+version: '1.2.0'
+main: net.featherflux.discos.FeatherDiscos
+api-version: '26.2'
+depend: [JukeboxExtendedReborn, packetevents]
+softdepend: [Geyser-Spigot, floodgate]
+description: Discos FeatherFlux criados dentro do jogo com limite semanal.
+authors: [civilianbird]
+commands:
+  disco:
+    description: Criar discos por link ou enviar um arquivo de áudio.
+    usage: /disco [link | enviar | meus | pegar <nº> | receber | cota | pacote]
+    aliases: [discos]
+permissions:
+  featherdiscos.criar:
+    default: true
+  featherdiscos.admin:
+    description: Listar, pegar e apagar qualquer disco e reconstruir o pacote. Inclui o uso sem limite.
+    default: op
+    children:
+      featherdiscos.ilimitado: true
+  featherdiscos.ilimitado:
+    description: Criar discos sem o limite semanal nem o limite de tentativas.
+    default: op

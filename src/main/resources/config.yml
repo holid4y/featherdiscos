@@ -1,0 +1,22 @@
+# FeatherFlux — discos criados pelos jogadores.
+# Alterações de rede/ferramentas exigem reinício planejado.
+limite-semanal: 5
+fuso-horario: America/Sao_Paulo
+# Semanas de segunda 00:00 até a próxima segunda, no fuso acima.
+duracao-maxima: 480
+duracao-minima: 3
+pacote-maximo-mb: 180
+upload-maximo-mb: 32
+pacote:
+  porta: 9880
+  bind: 127.0.0.1
+  url-publica: https://cachy.tailc71a24.ts.net:8443/discos
+  obrigatorio: true
+qualidade-audio: 3
+ferramentas:
+  yt-dlp: /opt/featherdiscos/bin/yt-dlp
+  deno: /opt/featherdiscos/bin/deno
+  ffmpeg: /usr/bin/ffmpeg
+  ffprobe: /usr/bin/ffprobe
+  tempo-limite: 300
+# Sem autoatualização de binários durante o boot do Minecraft.

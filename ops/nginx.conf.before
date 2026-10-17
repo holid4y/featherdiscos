@@ -1,0 +1,42 @@
+# Static host for the FeatherFlux wiki. Loopback only; Tailscale Funnel on :8443
+# terminates TLS in front of it.
+#
+# nginx rather than tailscale's own static handler: that one builds directory
+# redirects from the last path segment only, so /origins/dragao went to /dragao/
+# and every nested page 404'd.
+worker_processes 1;
+error_log /var/log/nginx/error.log warn;
+pid /run/nginx.pid;
+events { worker_connections 256; }
+http {
+    include       mime.types;
+    default_type  application/octet-stream;
+    sendfile      on;
+    tcp_nopush    on;
+    keepalive_timeout 30;
+    server_tokens off;
+    access_log off;
+
+    server {
+        listen 127.0.0.1:8089;
+        server_name _;
+        root /srv/vanaheim/site;
+        index index.html;
+
+        # Relative Location headers; otherwise nginx leaks 127.0.0.1:8089.
+        absolute_redirect off;
+        port_in_redirect off;
+
+        location / { try_files $uri $uri/ @rescue; }
+
+        # Browsers cached the old broken 301s permanently, so those visitors keep
+        # asking for /dragao/ instead of /origins/dragao/. Map them back.
+        # try_files runs first, so a real page is never rescued.
+        location @rescue {
+            rewrite ^/(compatibilidade|encantamentos|origens|recursos)/?$ /wiki/$1/ permanent;
+            rewrite ^/([^/.]+)/?$ /origins/$1/ permanent;
+            return 404;
+        }
+        error_page 404 /404.html;
+    }
+}

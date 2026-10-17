@@ -1,0 +1,43 @@
+PACK PASS 0c5ccc8e1bdf2c5534f28b933e21efa20eb403e6 44203 bytes configuration
+CHAT yellow /tell DiscTest957071  suggest_command DiscTest957071 DiscTest957071 minecraft:player show_entity     DiscTest957071 multiplayer.player.joined
+CHAT open_url [private upload link] gold [FeatherFlux] Clique aqui para enviar seu áudio (válido por 10 minutos).
+CHAT gold white Link pessoal: não compartilhe. Máximo 32 MB / 480 segundos. [FeatherFlux] 
+CHAT gold white Áudio na fila. Vou avisar quando o disco estiver pronto. [FeatherFlux] 
+CHAT gold white Não consegui processar esse link/arquivo. Tente um arquivo de áudio com /disco enviar. [FeatherFlux] 
+CHAT gold white Você criou 0 de 5 discos nesta semana. Renova segunda-feira às 00:00 (São Paulo). [FeatherFlux] 
+INVALID AUDIO DOES NOT CONSUME QUOTA
+CHAT open_url [private upload link] gold [FeatherFlux] Clique aqui para enviar seu áudio (válido por 10 minutos).
+CHAT gold white Link pessoal: não compartilhe. Máximo 32 MB / 480 segundos. [FeatherFlux] 
+CHAT gold white Áudio na fila. Vou avisar quando o disco estiver pronto. [FeatherFlux] 
+PACK PASS 566cef17d4716f57bced37b9128554a5e7796395 49160 bytes play
+CHAT gold white Disco #6 criado: Integration 1. Cota: 1/5. [FeatherFlux] 
+CHAT gold white Seu disco está salvo. Aguarde o pacote carregar; depois use /disco receber se necessário. [FeatherFlux] 
+CHAT gold white Disco #6 entregue! Coloque-o em uma jukebox. [FeatherFlux] 
+CHAT open_url [private upload link] gold [FeatherFlux] Clique aqui para enviar seu áudio (válido por 10 minutos).
+CHAT gold white Link pessoal: não compartilhe. Máximo 32 MB / 480 segundos. [FeatherFlux] 
+CHAT gold white Áudio na fila. Vou avisar quando o disco estiver pronto. [FeatherFlux] 
+CHAT gold white Disco #7 criado: Integration 2. Cota: 2/5. [FeatherFlux] 
+CHAT gold white Seu disco está salvo. Aguarde o pacote carregar; depois use /disco receber se necessário. [FeatherFlux] 
+PACK PASS 52d998ba20dfa21d69ce80cd2e87696c390a5495 54105 bytes play
+CHAT gold white Disco #7 entregue! Coloque-o em uma jukebox. [FeatherFlux] 
+CHAT open_url [private upload link] gold [FeatherFlux] Clique aqui para enviar seu áudio (válido por 10 minutos).
+CHAT gold white Link pessoal: não compartilhe. Máximo 32 MB / 480 segundos. [FeatherFlux] 
+CHAT gold white Áudio na fila. Vou avisar quando o disco estiver pronto. [FeatherFlux] 
+PACK PASS 1e391c0a75e6bc7e30dc4fa8f6a5f420dadca16a 59050 bytes play
+CHAT gold white Disco #8 criado: Integration 3. Cota: 3/5. [FeatherFlux] 
+CHAT gold white Seu disco está salvo. Aguarde o pacote carregar; depois use /disco receber se necessário. [FeatherFlux] 
+CHAT gold white Disco #8 entregue! Coloque-o em uma jukebox. [FeatherFlux] 
+CHAT open_url [private upload link] gold [FeatherFlux] Clique aqui para enviar seu áudio (válido por 10 minutos).
+CHAT gold white Link pessoal: não compartilhe. Máximo 32 MB / 480 segundos. [FeatherFlux] 
+CHAT gold white Áudio na fila. Vou avisar quando o disco estiver pronto. [FeatherFlux] 
+PACK PASS 92b796ce30cf00853c5c6829a169a58dad5b146e 63995 bytes play
+CHAT gold white Disco #9 criado: Integration 4. Cota: 4/5. [FeatherFlux] 
+CHAT gold white Disco #9 entregue! Coloque-o em uma jukebox. [FeatherFlux] 
+CHAT open_url [private upload link] gold [FeatherFlux] Clique aqui para enviar seu áudio (válido por 10 minutos).
+CHAT gold white Link pessoal: não compartilhe. Máximo 32 MB / 480 segundos. [FeatherFlux] 
+CHAT gold white Áudio na fila. Vou avisar quando o disco estiver pronto. [FeatherFlux] 
+PACK PASS 2e5fe60e097a68f2ddb65025f7b94bd56d82493a 68944 bytes play
+CHAT gold white Disco #10 criado: Integration 5. Cota: 5/5. [FeatherFlux] 
+CHAT gold white Disco #10 entregue! Coloque-o em uma jukebox. [FeatherFlux] 
+CHAT gold white Você criou 5 de 5 discos nesta semana. Renova segunda-feira às 00:00 (São Paulo). [FeatherFlux] 
+PASS: configuration required pack, public HTTPS hash, invalid audio, 5 creations, live pack pushes, delivery, reused token rejected, sixth creation blocked. Player=DiscTest957071 Packs=6

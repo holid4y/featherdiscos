@@ -1,0 +1,155 @@
+[11:34:40] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4.1; Arch Linux null) on Linux 7.2.7-1-cachyos (amd64)
+[11:34:40] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-129-ver/26.2@9240f58 (2026-09-23T18:49:01Z) for Minecraft 26.2
+[11:34:40] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[11:34:41] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[11:34:41] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+ - FeatherDiscos (1.1.0), Geyser-Spigot (2.11.3-SNAPSHOT), JukeboxExtendedReborn (2.2.7), ViaBackwards (5.12.1-SNAPSHOT), ViaVersion (5.12.1-SNAPSHOT), packetevents (2.14.0)
+[11:34:52] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[11:34:53] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[11:34:55] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 3,106.3ms
+[11:35:01] [ServerMain/INFO]: Loaded 1585 recipes
+[11:35:01] [ServerMain/INFO]: Loaded 1688 advancements
+[11:35:01] [Server thread/INFO]: Starting minecraft server version 26.2
+[11:35:01] [Server thread/INFO]: Loading properties
+[11:35:01] [Server thread/INFO]: This server is running Paper version 26.2-129-ver/26.2@9240f58 (2026-09-23T18:49:01Z) (Implementing API version 26.2.build.129-stable)
+[11:35:02] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[11:35:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:35:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:35:03] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[11:35:04] [Server thread/INFO]: Default game type: SURVIVAL
+[11:35:04] [Server thread/INFO]: Generating keypair
+[11:35:04] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:25575
+[11:35:04] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[11:35:04] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[11:35:07] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.12.1-SNAPSHOT
+[11:35:07] [Server thread/INFO]: [ViaVersion] ViaVersion 5.12.1-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[11:35:10] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[11:35:10] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[11:35:12] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.11.3-SNAPSHOT
+[11:35:13] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[11:35:13] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[11:35:13] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.12.1-SNAPSHOT
+[11:35:13] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.14.0
+[11:35:14] [Server thread/INFO]: [packetevents] Loading packetevents...
+[11:35:16] [Server thread/INFO]: [packetevents] Loading block mappings for V_26_3/23...
+[11:35:18] [Server thread/INFO]: [packetevents] Finished loading block mappings for V_26_3/23 in 1111.726034ms
+[11:35:18] [Server thread/INFO]: [packetevents] Loaded packetevents v2.14.0
+[11:35:18] [Server thread/INFO]: [JEXT] Loading server plugin JukeboxExtendedReborn v2.2.7
+[11:35:18] [Server thread/INFO]: [FeatherDiscos] Loading server plugin FeatherDiscos v1.1.0
+[11:35:18] [Server thread/INFO]: [JEXT] Enabling JukeboxExtendedReborn v2.2.7
+[11:35:19] [Server thread/INFO]: [JEXT] Enabled Jukebox Extended Reborn, Do Re Mi!
+[11:35:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:35:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:35:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:35:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:35:19] [Server thread/INFO]: Preparing level "world"
+[11:35:21] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[11:35:21] [Server thread/INFO]: Preparing spawn area: 100%
+[11:35:21] [Server thread/INFO]: Prepared spawn area in 1 ms
+[11:35:21] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[11:35:21] [Server thread/INFO]: Prepared spawn area in 1 ms
+[11:35:21] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[11:35:21] [Server thread/INFO]: Prepared spawn area in 0 ms
+[11:35:21] [Server thread/INFO]: Done preparing level "world" (1.947s)
+[11:35:21] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.12.1-SNAPSHOT
+[11:35:21] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
+[11:35:21] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.11.3-SNAPSHOT
+[11:35:23] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.12.1-SNAPSHOT
+[11:35:23] [Server thread/INFO]: [packetevents] Enabling packetevents v2.14.0
+[11:35:23] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[11:35:23] [Server thread/INFO]: [FeatherDiscos] Enabling FeatherDiscos v1.1.0
+[11:35:24] [Server thread/INFO]: [spark] Starting background profiler...
+[11:35:24] [packetevents-update-check-thread/INFO]: [packetevents] You are running the latest release: 2.14.0
+[11:35:25] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[11:35:25] [Server thread/INFO]: [Geyser-Spigot] 
+[11:35:25] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.11.3-b1246 (git-master-54250f1)
+[11:35:25] [Server thread/INFO]: [Geyser-Spigot] 
+[11:35:25] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[11:35:27] [Server thread/INFO]: [Geyser-Spigot] Registered 199 custom block overrides.
+[11:35:27] [Server thread/INFO]: [Geyser-Spigot] Registered 2 custom block item overrides.
+[11:35:27] [Server thread/INFO]: [Geyser-Spigot] Registered 7 custom blocks.
+[11:35:30] [spark-monitoring-1-thread-2/WARN]: [spark] Timed out waiting for world statistics
+[11:35:31] [Server thread/INFO]: [Geyser-Spigot] Registered 35 custom items
+[11:35:33] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on 127.0.0.1:19142
+[11:35:33] [Server thread/INFO]: [Geyser-Spigot] Done (8.18s)! Run /geyser help for help!
+[11:35:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:35:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[11:35:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[11:35:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:35:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:35:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:35:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:35:34] [Server thread/INFO]: Running delayed init tasks
+[11:35:34] [Server thread/INFO]: Done (56.078s)! For help, type "help"
+[11:35:34] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[11:35:34] [Server thread/INFO]: [JEXT] Webserver started on port 19871
+[11:35:34] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.12.1, you're on: 5.12.1-SNAPSHOT
+[11:35:35] [Paper Async Task Handler Thread - 1/WARN]: *** You are running an outdated version of Minecraft, which is 2 releases and 5 builds behind!
+[11:35:35] [Paper Async Task Handler Thread - 1/WARN]: *** Please update to the latest stable version on https://papermc.io/downloads/paper ***
+[11:35:36] [FeatherDiscos-worker/INFO]: [FeatherDiscos] Pronto: 17 discos. Pacote 0dec434d7e3ceded613aa94582d08534799f0673
+[11:36:16] [User Authenticator #0/INFO]: UUID of player DiscTest375605 is 410b9f6a-8b34-37bb-8f03-eb6b23afb318
+[11:36:19] [Server thread/INFO]: DiscTest375605 joined the game
+[11:36:19] [Server thread/INFO]: DiscTest375605[/127.0.0.1:59402] logged in with entity id 103 at ([minecraft:overworld]-1.5, -60.0, -0.5)
+[11:36:21] [Server thread/INFO]: DiscTest375605 issued server command: /disco enviar
+[11:36:21] [FeatherDiscos-worker/WARN]: [FeatherDiscos] Criação para 410b9f6a-8b34-37bb-8f03-eb6b23afb318 falhou: DiscException: Não consegui processar esse link/arquivo. Tente um arquivo de áudio com /disco enviar.
+[11:36:22] [Server thread/INFO]: DiscTest375605 issued server command: /disco cota
+[11:36:22] [Server thread/INFO]: Made DiscTest375605 a server operator
+[11:36:23] [Server thread/INFO]: DiscTest375605 issued server command: /give @s minecraft:stone 2304
+[11:36:23] [Server thread/INFO]: [DiscTest375605: Gave 2304 [Stone] to DiscTest375605]
+[11:36:24] [Server thread/INFO]: DiscTest375605 issued server command: /disco enviar
+[11:36:26] [Server thread/INFO]: DiscTest375605 issued server command: /clear @s
+[11:36:26] [Server thread/INFO]: [DiscTest375605: Removed 2304 item(s) from player DiscTest375605]
+[11:36:27] [Server thread/INFO]: DiscTest375605 issued server command: /disco receber
+[11:36:28] [Server thread/INFO]: DiscTest375605 issued server command: /disco enviar
+[11:36:30] [Server thread/INFO]: DiscTest375605 issued server command: /disco enviar
+[11:36:32] [Server thread/INFO]: DiscTest375605 issued server command: /disco enviar
+[11:36:34] [Server thread/INFO]: DiscTest375605 issued server command: /disco enviar
+[11:36:36] [Server thread/INFO]: DiscTest375605 issued server command: /disco enviar
+[11:36:36] [Server thread/INFO]: DiscTest375605 issued server command: /setblock ~ ~-1 ~ minecraft:jukebox
+[11:36:36] [Server thread/INFO]: [DiscTest375605: Changed the block at -2, -61, -1]
+[11:36:45] [Server thread/INFO]: DiscTest375605 lost connection: Disconnected
+[11:36:45] [Server thread/INFO]: DiscTest375605 left the game
+[11:38:10] [Server thread/INFO]: Stopping the server
+[11:38:10] [Server thread/INFO]: Stopping server
+[11:38:10] [Server thread/INFO]: [FeatherDiscos] Disabling FeatherDiscos v1.1.0
+[11:38:10] [Server thread/INFO]: [JEXT] Disabling JukeboxExtendedReborn v2.2.7
+[11:38:10] [Server thread/INFO]: [JEXT] Webserver stopped
+[11:38:10] [Server thread/INFO]: [JEXT] Disabled Jukebox Extended Reborn, Mi Re Do!
+[11:38:10] [Server thread/INFO]: [packetevents] Disabling packetevents v2.14.0
+[11:38:10] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.12.1-SNAPSHOT
+[11:38:10] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.11.3-SNAPSHOT
+[11:38:10] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
+[11:38:10] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[11:38:10] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.12.1-SNAPSHOT
+[11:38:10] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[11:38:10] [Server thread/INFO]: Saving players
+[11:38:10] [Server thread/INFO]: Saving worlds
+[11:38:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:38:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
+[11:38:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
+[11:38:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
+[11:38:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 0.00s
+[11:38:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
+[11:38:10] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
+[11:38:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[11:38:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
+[11:38:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
+[11:38:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
+[11:38:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
+[11:38:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
+[11:38:10] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
+[11:38:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[11:38:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
+[11:38:10] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
+[11:38:10] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
+[11:38:10] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.00s
+[11:38:10] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
+[11:38:10] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
+[11:38:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:38:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:38:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:38:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:38:10] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[11:38:10] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[11:38:10] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[11:38:10] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
