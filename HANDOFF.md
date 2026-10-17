@@ -2,7 +2,7 @@
 
 Atualizado: 2026-10-17 19:10, Vanaheim (America/Sao_Paulo).
 
-## 1.2.0 — preparado, entra no próximo reinício
+## 1.2.0 — EM PRODUÇÃO desde 2026-10-17 19:22 (reinício autorizado pelo Matheus)
 
 Pedido do Matheus em 17/10: pegar de volta discos já criados, links do Spotify/YouTube
 e envio de link pela página, sem limite para admins e um /disco apagar que mostre
@@ -18,8 +18,8 @@ qual disco é.
   mais cortadas em 64 caracteres.
 - Testes: CoreTest PASS; sandbox (Paper 26.2, porta 25575) 31/31 com bots, incluindo
   Spotify, YouTube pela página, álbum recusado, pegar/apagar e permissões.
-- Jar em `/srv/games/minecraft/plugins/update/FeatherDiscos.jar` (SHA256 d4571b5b…):
-  o Paper troca o jar sozinho no próximo boot. Nada de dados foi alterado.
+- Aplicado pela pasta `plugins/update/` (mesmo nome de arquivo; o Paper troca no boot).
+  plugins/FeatherDiscos.jar SHA256 d4571b5b…; 4 discos e discos.yml intactos (md5 igual ao backup).
 - Backup do jar 1.1.0 e dos dados: `/srv/games/minecraft-plugin-backups/2026-10-17-pre-origins1.4.2-discos1.2.0`.
   Para voltar: parar o servidor, copiar o FeatherDiscos.jar desse backup para plugins/.
 - Código no GitHub: UnusualHatter/featherdiscos (privado). `vendor/` não vai para o git:
