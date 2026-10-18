@@ -80,6 +80,8 @@ public final class FeatherDiscos extends JavaPlugin implements Listener, Command
         try{return getServer().getScheduler().callSyncMethod(this,action).get(20,TimeUnit.SECONDS);}
         catch(ExecutionException e){if(e.getCause() instanceof Exception cause)throw cause;throw e;}
     }
+    /** Disc count in the player's own data (featherdiscos:discos_criados), read by the backpack plugin. */
+    private void publishCreated(Player p){p.getPersistentDataContainer().set(new NamespacedKey(this,"discos_criados"),org.bukkit.persistence.PersistentDataType.INTEGER,store.createdTotal(p.getUniqueId()));}
     private void say(CommandSender player,String text){player.sendMessage(Component.text("[FeatherFlux] ",NamedTextColor.GOLD).append(Component.text(text,NamedTextColor.WHITE)));}
     private void notify(UUID id,String text){if(isEnabled())getServer().getScheduler().runTask(this,()->{Player p=Bukkit.getPlayer(id);if(p!=null)say(p,text);});}
 
@@ -274,7 +276,7 @@ public final class FeatherDiscos extends JavaPlugin implements Listener, Command
             publish(pack);
             if(ticket!=null)ticket.status="Disco #"+discId+" pronto! Confira seu inventário ou use /disco receber.";
             notify(id,"Disco #"+discId+" criado: "+disc.title()+". "+(unlimited?"Sem limite (administrador).":"Cota: "+store.used(id,settings.zone())+"/"+settings.weeklyLimit()+"."));
-            main(()->{Player p=Bukkit.getPlayer(id);if(p!=null)deliver(p);return null;});
+            main(()->{Player p=Bukkit.getPlayer(id);if(p!=null){publishCreated(p);deliver(p);}return null;});
         }catch(Exception e){
             String message=committed?"Seu disco foi salvo. Use /disco receber; a atualização do pacote será recuperada no próximo carregamento.":e instanceof DiscException?e.getMessage()+" Sua cota não foi gasta.":"Não foi possível criar o disco. Sua cota não foi consumida. Tente /disco enviar.";
             if(ticket!=null)ticket.status=message;
@@ -371,6 +373,7 @@ public final class FeatherDiscos extends JavaPlugin implements Listener, Command
     }
     @EventHandler public void join(PlayerJoinEvent e){getServer().getScheduler().runTaskLater(this,()->{
         Player p=e.getPlayer();if(!p.isOnline()||!ready)return;
+        publishCreated(p);
         if(!bedrock(p.getUniqueId())&&!Objects.equals(requested.get(p.getUniqueId()),current.sha1()))sendPack(p,p.getUniqueId(),current);
         deliver(p);
     },40L);}

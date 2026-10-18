@@ -1,5 +1,5 @@
 name: FeatherDiscos
-version: '1.2.0'
+version: '1.2.1'
 main: net.featherflux.discos.FeatherDiscos
 api-version: '26.2'
 depend: [JukeboxExtendedReborn, packetevents]

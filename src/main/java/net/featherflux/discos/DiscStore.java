@@ -89,6 +89,11 @@ final class DiscStore {
         return (int) quota.getOrDefault(player, List.of()).stream().filter(t -> t >= start).count();
     }
 
+    /** Every disc this player ever created, deleted ones included (the quota ledger). */
+    synchronized int createdTotal(UUID player) {
+        return quota.getOrDefault(player, List.of()).size();
+    }
+
     static java.time.ZonedDateTime weekStart(java.time.ZoneId zone) {
         return java.time.ZonedDateTime.now(zone)
             .with(java.time.temporal.TemporalAdjusters.previousOrSame(java.time.DayOfWeek.MONDAY))
